@@ -9,7 +9,7 @@ services:
           - "443:8443"
           # With HTTP
           #- "80:8443"
-        command: code-server --port 8443
+        command: code-server --port 8443 --auth none
      
 #       Connect via network
 #        networks:
