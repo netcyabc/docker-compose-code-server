@@ -9,7 +9,8 @@ services:
           - "443:8443"
           # With HTTP
           #- "80:8443"
-        command: code-server --link
+        command: code-server --port 8443
+     
 #       Connect via network
 #        networks:
 #            outpost_network:
